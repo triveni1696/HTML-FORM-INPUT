@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM & INPUT</title>
+</head>
+
+<body>
+
+    <form style="text-align: center;background-color: greenyellow;">
+        <h2>Personal Details</h2><br><br>
+        <label for="name">Name:</label>
+        <input type="name" id="name" placeholder="Enter Your Name"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="email id">E-mail id</label>
+        <input type="email" name="email" id="email id" placeholder="Enter Your E -mail id"><br><br>
+
+        <label for="gender">Gender </label>
+        <label for="gender">Male</label>
+        <input type="radio" name="Male" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="Female" id="gender"><br><br>
+
+        <label for="contacts">Contacts</label>
+        <input type="number" name="number" id="contacts" maxlength="10">
+
+        <h2>Educational Qualification</h2>
+
+        <label for="degree">degree</label>
+
+        <select name="degree" id="degree" placeholder="-Select Group-">
+            <option value="-Select group">-select Group-</option>
+            <option value="BEMech">BEMech</option>
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+        </select><br><br>
+        <label for="engineering">Engineering</label>
+
+        <select name="engineering" id="engineering">
+            <option value="">-Select Group-</option>
+            <option value="mechanical Engineering">mechanical Engineering</option>
+            <option value="Computer Engineering">Computer Engineering</option>
+        </select><br><br>
+        <label for="hobbies">Hobbies</label>
+        <label for="hobbies">playing chess</label>
+        <input type="radio" name="playing chess" id="hobbies">
+        <label for="hobbies">reading books</label>
+        <input type="radio" name="reading books" id="hobbies"><br><br>
+
+        <label for="address">Address</label><br><br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea><br><br>
+        <label for="attch resume">attch resume</label>
+        <input type="file" name="attch resume" multiple id="attch resume">
+
+    </form>
+</body>
+
+</html>
